@@ -6,9 +6,9 @@ from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI()
 
 images = [
-    "https://example.com/image1.jpg",
-    "https://example.com/image2.jpg",
-    "https://example.com/image3.jpg"
+    "https://images.prom.ua/3633715315_w640_h640_shtora-velyur-temno-seraya.jpg",
+    "https://podushka.com.ua/upload/catalogue/shtora_s_podkhvatom_provans_bella_rozy_s_kruzhevom_1570405512.jpg",
+    "https://images.prom.ua/1075328978_shtora-blekaut-green.jpg"
 ]
 
 app.add_middleware(
